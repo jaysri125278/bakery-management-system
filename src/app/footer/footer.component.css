@@ -1,0 +1,20 @@
+footer {
+    background-color: #9b7cc3; /* Lavender color for the footer */
+    padding: 40px 0;
+    color: white;
+}
+
+footer a {
+    color: white; /* White links in footer */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.logo-container {
+    background-color: #9b7cc3; /* Lavender color behind the image */
+    padding: 20px; /* Optional padding around the logo */
+    display: inline-block; /* Ensures it fits around the image */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}

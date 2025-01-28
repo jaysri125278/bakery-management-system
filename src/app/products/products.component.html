@@ -1,0 +1,36 @@
+<div class="container-v2">
+    <div class="container">
+        <div class="text-center">
+            <div class="title-info text-center">
+                <h1 class="title-heading mb-0">OUR PRODUCTS</h1>
+            </div>
+        </div>
+    
+        <p class="content-info desktop-only">
+            Indulge in a variety of delicious, freshly baked treats, perfect for any occasion! Our range of savory items, including sandwiches and rolls, are made with the finest ingredients to ensure each bite is full of flavor. Explore our collection and treat yourself to the ultimate indulgence.
+        </p>
+        
+        <p class="content-info mobile-only">
+            Indulge in a variety of delicious, freshly baked treats, perfect for any occasion! Our range of savory items, including sandwiches and rolls, are made with the finest ingredients to ensure each bite is full of flavor. Explore our collection and treat yourself to the ultimate indulgence.
+        </p>
+    </div>    
+</div>
+
+
+<div class="container my-4">
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let product of products">
+        <div class="card">
+            <a>
+                <img [src]="product.image_url" alt="{{ product.product_name }}" class="card-img-top" />
+            </a>
+          
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ product.product_name }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

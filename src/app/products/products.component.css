@@ -1,0 +1,56 @@
+.container-v2 {
+    padding: 60px 0; 
+    background-color: #faf0fd; 
+}
+
+.title-heading {
+    font-family: 'Overlock', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    color: #5a3e6b;
+    margin-bottom: 0;
+}
+
+/* Enhanced content styling */
+.content-info {
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.desktop-only {
+    font-size: 18px;
+    color: #5a3e6b;
+}
+
+
+.mobile-only {
+    font-size: 16px;
+    color: #5a3e6b; 
+}
+
+
+@media (max-width: 767px) {
+    .desktop-only {
+        display: none; 
+    }
+    .mobile-only {
+        display: block; 
+    }
+}
+
+@media (min-width: 768px) {
+    .desktop-only {
+        display: block; 
+    }
+    .mobile-only {
+        display: none; 
+    }
+}
